@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/Inter-VariableFont_opsz\,wght.ttf')
+    format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Antic Slab';
+  src: url('../assets/fonts/AnticSlab-Regular.ttf') format('truetype');
+  font-style: normal;
+}

@@ -1,0 +1,26 @@
+:root {
+  --text-color-light: rgb(175, 240, 175);
+  --bg-color-dark: rgb(0, 51, 0);
+  --main-bg-color: rgb(102, 255, 179);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  background-color: var(--bg-color-dark);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  font-size: 3rem;
+  color: var(--text-color-light);
+  font-weight: bold;
+  font-family: 'Antic Slab', 'Inter', sans-serif;
+}
