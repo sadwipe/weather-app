@@ -11,9 +11,25 @@
     </div>
     <div class="main">
       <form action="GET" class="search-form">
-        <input type="text" />
-        <button class="search-button" type="submit"></button>
+        <input
+          id="city-input"
+          type="text"
+          placeholder="Enter city (e.g., Paris)"
+        />
+        <button class="search-button" type="button">Search</button>
       </form>
+      <div class="card-container">
+        <div class="card">
+          <h2 class="card-title"></h2>
+          <div class="card-info">
+            <p class="temperature"></p>
+            <p class="condition"></p>
+            <p class="humidity"></p>
+            <p class="precipitation"></p>
+            <p class="wind-speed"></p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
