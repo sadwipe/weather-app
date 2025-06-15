@@ -26,7 +26,7 @@ export default function init() {
       }
       loadCardContainer();
     } catch (error) {
-      displayErrorMessage("We could not find the city you're looking for.")
+      displayErrorMessage("We could not find the city you're looking for.");
       console.error(error);
     }
   }
